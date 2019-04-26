@@ -939,7 +939,7 @@
                         </div>
                         <div class="col-sm-12 mh-footer-address">
                             <div class="row">
-                                <div class="col-sm-12 col-md-4">
+                                <div class="col-sm-12 col-md-3">
                                     <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                                         <div class="each-icon">
                                             <i class="fa fa-location-arrow"></i>
@@ -953,7 +953,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4">
+                                <div class="col-sm-12 col-md-3">
                                     <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
                                         <div class="each-icon">
                                             <i class="fa fa-envelope-o"></i>
@@ -966,7 +966,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4">
+                                <div class="col-sm-12 col-md-3">
                                     <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
                                         <div class="each-icon">
                                             <i class="fa fa-phone"></i>
@@ -978,6 +978,20 @@
                                         </div>
                                     </div>
                                 </div>
+
+
+                                <div class="col-sm-12 col-md-3">
+                                    <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                        <div class="each-icon">
+                                            <i class="fa fa-envelope-o"></i>
+                                        </div>
+                                        <div class="each-info">
+                                            <h4>Online Resume</h4>
+                                            <a href="resume_lotif1612.xyz/index.php">View Resume</a>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">

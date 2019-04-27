@@ -920,13 +920,13 @@ body {
   width: 100%; }
 
 .mh-header {
-  padding: 0;
+  padding: 20px 0;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
   .mh-header.nav-strict {
-    padding: 0;
+    padding: 15px 0;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -951,11 +951,10 @@ body {
 .nav-3 .navbar-dark .navbar-nav .nav-link.active a {
   color: rgba(255, 255, 255, 0.7); }
 .nav-3 .navbar-nav {
-  padding-top: 0px; }
+  padding-top: 30px; }
 
 .home-padding {
-  padding-top: 0;
-padding-bottom: 70px;}
+  padding: 180px 0; }
 
 /*
     ==============
@@ -964,7 +963,7 @@ padding-bottom: 70px;}
 */
 .mh-home-2 .mh-header-info {
   text-align: center;
-  padding-top: 0; }
+  padding-top: 100px; }
   .mh-home-2 .mh-header-info .hero-img {
     margin-bottom: 30px; }
     .mh-home-2 .mh-header-info .hero-img img {
@@ -1012,7 +1011,7 @@ padding-bottom: 70px;}
     margin: 0 10px;
 }
 .mh-home .mh-header-info {
-  padding-top: 95px; }
+  padding-top: 100px; }
   .mh-home .mh-header-info .mh-promo {
     margin-bottom: 30px; }
     .mh-home .mh-header-info .mh-promo span {

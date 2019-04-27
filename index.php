@@ -1,3 +1,33 @@
+<?php
+/*$errMsg = $fname = $lname = $senderEmail = $messageBody = "";
+
+if (isset($_POST['submit'])) {
+  $to = 'lotif1612@gmail.com';
+
+  $fname = $_POST['fname'];
+  $lname = $_POST['lname'];
+  $name = $fname." ".$lname;
+
+  $subject = "Message From Website";
+  $senderEmail = $_POST['email'];
+  $messageBody = $_POST['message'];
+
+  $header = "From: $name <$senderEmail>";
+
+  $sent = mail($to, $subject, $messageBody, $header);
+  if ($sent) {
+    $errMsg = "Your message has been sent successfully!";
+  }
+  else {
+    $errMsg = "Your message couldn't send. Try again";
+  }
+}
+else {
+  $errMsg = "You have to submit first"
+}
+*/
+ ?>
+
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -93,54 +123,55 @@
            NAVIGATION
         ===================
         -->
-        <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav wow fadeInUp" id="mh-header">
-              <div class="overlay"></div>
-              <div class="container">
-                  <div class="row">
-                      <nav class="navbar navbar-expand-lg mh-nav nav-btn">
-                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="navbar-toggler-icon icon"></span>
-                          </button>
+        <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav wow fadeInUp" style="visibility: visible;padding-top: 10px;padding-bottom: 10px;" id="mh-header">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon icon"></span>
+                            </button>
 
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                              <ul class="navbar-nav mr-auto ml-auto">
-                                <li class="nav-item active">
-                                  <a class="nav-link" href="#mh-home">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-about">About</a>
-                                </li>
-                                <li class="nav-item">
-                                   <a class="nav-link" href="#mh-skills">Skills</a>
-                                </li>
-                                <li class="nav-item">
-                                   <a class="nav-link" href="#mh-experience">Education</a>
-                                </li>
-                                <li class="nav-item">
-                                   <a class="nav-link" href="#mh-experience">Experiences</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-portfolio">Projects</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-portfolio">Activity</a>
-                                </li>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto ml-auto">
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#mh-home">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#mh-about">About</a>
+                                  </li>
+                                  <li class="nav-item">
+                                     <a class="nav-link" href="#mh-skills">Skills</a>
+                                  </li>
+                                  <li class="nav-item">
+                                     <a class="nav-link" href="#mh-experience">Education</a>
+                                  </li>
+                                  <li class="nav-item">
+                                     <a class="nav-link" href="#mh-experience">Experiences</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#mh-portfolio">Projects</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#mh-portfolio">Activity</a>
+                                  </li>
 
-                                <!--<li class="nav-item">
-                                    <a class="nav-link" href="#mh-pricing">Pricing</a>
-                                </li> -->
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-blog">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                   <a class="nav-link" href="#mh-contact">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </header>
+                                  <!--<li class="nav-item">
+                                      <a class="nav-link" href="#mh-pricing">Pricing</a>
+                                  </li> -->
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#mh-blog">Blog</a>
+                                  </li>
+                                  <li class="nav-item">
+                                     <a class="nav-link" href="#mh-contact">Contact</a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </nav>
+                  </div>
+              </div>
+          </header>
+
 
         <!--
         ===================
@@ -162,17 +193,15 @@
 
                                 <ul>
                                     <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i class="fa fa-envelope"></i><a href="mailto:lotif1612@cseku.ac.bd">lotif1612@cseku.ac.bd</a></li>
-                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i class="fa fa-envelope"></i><a href="mailto:lotif1612@gmail.com">lotif1612@gmail.com</a></li>
-                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i class="fa fa-envelope"></i><a href="mailto:me@lotif1612.xyz">me@lotif1612.xyz</a></li>
                                     <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i class="fa fa-phone"></i><a href="callto:">+8801717-059192</a></li>
                                     <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-map-marker"></i><address>Khan Bahadur Ahsanullah Hall, Khulna University, Bangladesh</address></li>
                                 </ul>
 
                                 <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                    <li><a href="https://facebook.com/llotif.13" ><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://twitter.com/lotif13"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://github.com/cseku160212"><i class="fa fa-github"></i></a></li>
-                                    <li><a href="https://linkedin.in/cseku160212"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://facebook.com/llotif.13" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com/lotif13" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://github.com/cseku160212" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="https://linkedin.in/cseku160212" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -204,7 +233,7 @@
                     <div class="col-sm-12 col-md-6">
                         <div class="mh-about-inner">
                             <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">About Me</h2>
-                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Hello, I’m a Md. Abdul Lotif, Student, Computer Science & Engineering Discipline, Khulna University, Bangladesh
+                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Hello, I’m Md. Abdul Lotif, Student, Computer Science & Engineering Discipline, Khulna University, Bangladesh.</br>
                              I am good at</p>
                             <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                                 <ul>
@@ -226,6 +255,54 @@
                 </div>
             </div>
         </section>
+
+        <!--
+                ===================
+                   SERVICE
+                ===================
+
+                <section class="mh-service">
+                    <div class="container">
+                        <div class="row section-separator">
+                            <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                <h2>What I do</h2>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                    <i class="fa fa-bullseye purple-color"></i>
+                                    <h3>UI Design</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                        magna aliquam erat volutpat.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                    <i class="fa fa-code iron-color"></i>
+                                    <h3>Web Development</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                        magna aliquam erat volutpat.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                    <i class="fa fa-object-ungroup sky-color"></i>
+                                    <h3>App Development</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                        magna aliquam erat volutpat.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>       -->
 
         <!--
         ===================
@@ -428,10 +505,10 @@
                                     <!-- Education Institutes-->
                                     <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                                         <h4><a href="ku.ac.bd">KHULNA UNIVERSITY, BANGLADESH</a></h4>
-                                        <h5>BACHELOR OF ENGINEERIGN</h5>
+                                        <h5>BACHELOR OF ENGINEERING</h5>
                                         <h5>Computer Science & Engineering</h5>
                                         <div class="mh-eduyear">  January, 2016-Present</div>
-                                        <p>Avg CGPA: 3.06 out of 4</p>
+                                        <p><!--CGPA: --></p>
                                     </div>
                                     <!-- Education Institutes-->
                                     <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
@@ -456,7 +533,39 @@
                             <div class="mh-work">
                                  <h3>Work Experience</h3>
                                 <div class="mh-experience-deatils">
-
+                                  <h3>Work Experience</h3>
+                                <!--<div class="mh-experience-deatils">
+                                     Education Institutes
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                        <h4>UI/UX Designer <a href="">IronSketch</a></h4>
+                                        <div class="mh-eduyear">2005-2008</div>
+                                        <span>Responsibility :</span>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>Validate CSS</li>
+                                            <li><i class="fa fa-circle"></i>Project Management</li>
+                                        </ul>
+                                    </div>
+                                     Education Institutes
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                        <h4>Art & Multimedia From <a href="">Oxford University</a></h4>
+                                        <div class="mh-eduyear">2005-2008</div>
+                                        <span>Responsibility :</span>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>Validate CSS</li>
+                                            <li><i class="fa fa-circle"></i>Project Management</li>
+                                        </ul>
+                                    </div>
+                                     Education Institutes
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                        <h4>Art & Multimedia From <a href="">Oxford University</a></h4>
+                                        <div class="mh-eduyear">2005-2008</div>
+                                        <span>Responsibility :</span>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>Validate CSS</li>
+                                            <li><i class="fa fa-circle"></i>Project Management</li>
+                                        </ul>
+                                    </div>
+                                  -->
                                 </div>
                             </div>
                         </div>
@@ -476,6 +585,373 @@
                     <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
                         <h3>Projects</h3>
                     </div>
+                    <!--
+                    <div class="part col-sm-12">
+                        <div class="portfolio-nav col-sm-12" id="filter-button">
+                            <ul>
+                                <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>All Categories</span></li>
+                                <li data-filter=".user-interface" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Web Design</span></li>
+                                <li data-filter=".branding" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Branding</span></li>
+                                <li data-filter=".mockup" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>Mockups</span></li>
+                                <li data-filter=".ui" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><span>Photography</span></li>
+                            </ul>
+                        </div>
+                        <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <div class="portfolioContainer row">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g1.jpg" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Creative Design</h5>
+                                            <span class="sub-title">Photograpy</span>
+                                            <a data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui mockup">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g2.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Creative Design</h5>
+                                            <span class="sub-title">Photograpy</span>
+                                            <a href="assets/images/portfolio/g2.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g3.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Creative Design</h5>
+                                            <span class="sub-title">Photograpy</span>
+                                            <a href="assets/images/portfolio/g3.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g5.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Creative Design</h5>
+                                            <span class="sub-title">Photograpy</span>
+                                            <a href="assets/images/portfolio/g5.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g4.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Creative Design</h5>
+                                            <span class="sub-title">Photograpy</span>
+                                            <a href="assets/images/portfolio/g4.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g6.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Creative Design</h5>
+                                            <span class="sub-title">Photograpy</span>
+                                            <a href="assets/images/portfolio/g6.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g8.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Creative Design</h5>
+                                            <span class="sub-title">Photograpy</span>
+                                            <a href="assets/images/portfolio/g8.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g9.png" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Creative Design</h5>
+                                            <span class="sub-title">Photograpy</span>
+                                            <a href="assets/images/portfolio/g9.png" data-fancybox data-src="#mh"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                                    <figure>
+                                        <img src="assets/images/portfolio/g7.jpg" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Creative Design</h5>
+                                            <span class="sub-title">Photograpy</span>
+                                            <a href="assets/images/portfolio/g7.jpg" data-fancybox="gallery"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>  End: .grid .project-gallery
+                        </div>  End: .grid .project-gallery
+                    </div>  End: .part
+                </div>  End: .row
+            </div>
+            <div class="mh-portfolio-modal" id="mh">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                        <div class="col-sm-5">
+                            <h2>Wrap - A campanion plugin</h2>
+                            <p>Wrap is a clean and elegant Multipurpose Landing Page Template.
+                            It will fit perfectly for Startup, Web App or any type of Web Services.
+                            It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme.
+                            All variations are organized separately so you can use / customize the template very easily.</p>
+
+                            <p>It is a clean and elegant Multipurpose Landing Page Template.
+                            It will fit perfectly for Startup, Web App or any type of Web Services.
+                            It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme.
+                            All variations are organized separately so you can use / customize the template very easily.</p>
+                            <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>php</span></li>
+                                    <li><span>html</span></li>
+                                    <li><span>css</span></li>
+                                    <li><span>php</span></li>
+                                    <li><span>wordpress</span></li>
+                                    <li><span>React</span></li>
+                                    <li><span>Javascript</span></li>
+                                </ul>
+                            </div>
+                            <a href="" class="btn btn-fill">Live Demo</a>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                <img src="assets/images/pr-0.jif" alt="" class="img-fluid">
+                                <p>All variations are organized separately so you can use / customize the template very easily.</p>
+                                <img src="assets/images/pr-1.jif" alt="" class="img-fluid">
+                                <p>All variations are organized separately so you can use / customize the template very easily.</p>
+                            </div>
+                        </div>
+                    </div>
+                  -->
+                </div>
+            </div>
+        </section>
+
+
+        <!--
+        ===================
+           PRICING
+        ===================
+
+        <section class="mh-pricing" id="mh-pricing">
+            <div class="">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 section-title" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            <h3>Pricing Table</h3>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <i class="fa fa-calendar"></i>
+                                <h4>Full-time work</h4>
+                                <p>I am available for full time</p>
+                                <h5>$1500</h5>
+                                <ul>
+                                    <li>Web Development</li>
+                                    <li>Advetising</li>
+                                    <li>Game Development</li>
+                                    <li>Music Writing</li>
+                                </ul>
+                                <a href="" class="btn btn-fill">Hire Me</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                <i class="fa fa-file"></i>
+                                <h4>Fixed Price Project</h4>
+                                <p>I am available for fixed roles</p>
+                                <h5>$500</h5>
+                                <ul>
+                                    <li>Web Development</li>
+                                    <li>Advetising</li>
+                                    <li>Game Development</li>
+                                    <li>Music Writing</li>
+                                </ul>
+                                <a href="" class="btn btn-fill">Hire Me</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                <i class="fa fa-hourglass"></i>
+                                <h4>Hourley work</h4>
+                                <p>I am available for Hourley projets</p>
+                                <h5>$50</h5>
+                                <ul>
+                                    <li>Web Development</li>
+                                    <li>Advetising</li>
+                                    <li>Game Development</li>
+                                    <li>Music Writing</li>
+                                </ul>
+                                <a href="" class="btn btn-fill">Hire Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      -->
+
+        <!--
+        ===================
+           BLOG
+        ===================
+
+        <section class="mh-blog" id="mh-blog">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                        <h3>Featured Posts</h3>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                         <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <img src="assets/images/b-3.png" alt="" class="img-fluid">
+                            <div class="blog-inner">
+                                <h2><a href="blog-single.html">A life without the daily traffic jams</a></h2>
+                                <div class="mh-blog-post-info">
+                                    <ul>
+                                        <li><strong>Post On</strong><a href="">24.11.19</a></li>
+                                        <li><strong>By</strong><a href="">ThemeSpiders</a></li>
+                                    </ul>
+                                </div>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                <a href="blog-single.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <img src="assets/images/b-2.png" alt="" class="img-fluid">
+                            <div class="blog-inner">
+                                <h2><a href="blog-single.html">Proportion are what’s really needed</a></h2>
+                                <div class="mh-blog-post-info">
+                                    <ul>
+                                        <li><strong>Post On</strong><a href="">24.11.19</a></li>
+                                        <li><strong>By</strong><a href="">ThemeSpiders</a></li>
+                                    </ul>
+                                </div>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                <a href="blog-single.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                            <img src="assets/images/b-1.png" alt="" class="img-fluid">
+                            <div class="blog-inner">
+                                <h2><a href="blog-single.html">Mounts of paper work to remember the way</a></h2>
+                                <div class="mh-blog-post-info">
+                                    <ul>
+                                        <li><strong>Post On</strong><a href="">24.11.19</a></li>
+                                        <li><strong>By</strong><a href="">ThemeSpiders</a></li>
+                                    </ul>
+                                </div>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                <a href="blog-single.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      -->
+
+        <!--
+        ===================
+           TESTIMONIALS
+        ===================
+
+        <section class="mh-testimonial" id="mh-testimonial">
+            <div class="home-v-img">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            <h3>Client Reviews</h3>
+                        </div>
+                        <div class="col-sm-12 wow fadeInUp" id="mh-client-review" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      -->
 
         <!--
         ===================
@@ -546,25 +1022,26 @@
 
                             </div>
                         </div>
+                        <?php echo "<h1>".$errMsg."</h1>" ?>
                         <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                            <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator" action="#" method="POST">
+                            <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator" action="" method="POST">
                                 <div id="msgSubmit" class="h3 text-center hidden"></div>
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
-                                        <input name="name" class="contact-name form-control" id="name" type="text" placeholder="First Name" required>
+                                        <input name="fname" class="contact-name form-control" id="fname" type="text" placeholder="First Name" required>
                                     </div>
                                     <div class="col-md-6 col-sm-12">
-                                        <input name="name" class="contact-email form-control" id="L_name" type="text" placeholder="Last Name" required>
+                                        <input name="lname" class="contact-email form-control" id="lname" type="text" placeholder="Last Name" required>
                                     </div>
                                     <div class="col-sm-12">
-                                        <input name="name" class="contact-subject form-control" id="email" type="email" placeholder="Your Email" required>
+                                        <input name="senderEmail" class="contact-subject form-control" id="senderEmail" type="email" placeholder="Your Email" required>
                                     </div>
                                     <div class="col-sm-12">
                                         <textarea class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
                                     </div>
                                     <!-- Subject Button -->
                                     <div class="btn-form col-sm-12">
-                                        <button type="submit" class="btn btn-fill btn-block" id="form-submit">Send Message</button>
+                                        <button type="submit" class="btn btn-fill btn-block" name="submit" id="submit">Send Message</button>
                                     </div>
                                 </div>
                             </form>
@@ -583,10 +1060,10 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <ul class="social-icon">
-                                      <li><a href="https://facebook.com/llotif.13" ><i class="fa fa-facebook"></i></a></li>
-                                      <li><a href="https://twitter.com/lotif13"><i class="fa fa-twitter"></i></a></li>
-                                      <li><a href="https://github.com/cseku160212"><i class="fa fa-github"></i></a></li>
-                                      <li><a href="https://linkedin.in/cseku160212"><i class="fa fa-linkedin"></i></a></li>
+                                      <li><a href="https://facebook.com/llotif.13" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href="https://twitter.com/lotif13" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href="https://github.com/cseku160212" target="_blank"><i class="fa fa-github"></i></a></li>
+                                      <li><a href="https://linkedin.in/cseku160212" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

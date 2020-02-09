@@ -1,8 +1,8 @@
 <?php
-  $errMsg = $fname = $lname = $senderEmail = $messageBody = "";
+/*$errMsg = $fname = $lname = $senderEmail = $messageBody = "";
 
 if (isset($_POST['submit'])) {
-  $to = 'me@lotif1612.xyz';
+  $to = 'lotif1612@gmail.com';
 
   $fname = $_POST['fname'];
   $lname = $_POST['lname'];
@@ -22,6 +22,10 @@ if (isset($_POST['submit'])) {
     $errMsg = "Your message couldn't send. Try again";
   }
 }
+else {
+  $errMsg = "You have to submit first"
+}
+*/
  ?>
 
 <!doctype html>
@@ -114,11 +118,6 @@ if (isset($_POST['submit'])) {
             <div class="loader-section section-right"></div>
 		</div>
   </div>
-  
-  <script>
-  alert("This Portfolio is under construction. Some content might be missing.");
-</script>
-  
         <!--
         ===================
            NAVIGATION
@@ -154,14 +153,14 @@ if (isset($_POST['submit'])) {
                                       <a class="nav-link" href="#mh-portfolio">Projects</a>
                                   </li>
                                   <li class="nav-item">
-                                      <a class="nav-link" href="#mh-activity">Activity</a>
+                                      <a class="nav-link" href="#mh-portfolio">Activity</a>
                                   </li>
 
                                   <!--<li class="nav-item">
                                       <a class="nav-link" href="#mh-pricing">Pricing</a>
                                   </li> -->
                                   <li class="nav-item">
-                                      <a class="nav-link" href="https://lotif1612.blogspot.com/">Blog</a>
+                                      <a class="nav-link" href="#mh-blog">Blog</a>
                                   </li>
                                   <li class="nav-item">
                                      <a class="nav-link" href="#mh-contact">Contact</a>
@@ -194,7 +193,6 @@ if (isset($_POST['submit'])) {
 
                                 <ul>
                                     <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i class="fa fa-envelope"></i><a href="mailto:lotif1612@cseku.ac.bd">lotif1612@cseku.ac.bd</a></li>
-                                    
                                     <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i class="fa fa-phone"></i><a href="callto:">+8801717-059192</a></li>
                                     <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-map-marker"></i><address>Khan Bahadur Ahsanullah Hall, Khulna University, Bangladesh</address></li>
                                 </ul>
@@ -251,7 +249,7 @@ if (isset($_POST['submit'])) {
                                     <li><span>assembly</span></li>
                                 </ul>
                             </div>
-                            <a href="https://www.lotif1612.xyz/Resume_Lotif.pdf" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Downlaod CV <i class="fa fa-download"></i></a>
+                            <a href="" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Downlaod CV <i class="fa fa-download"></i></a>
                         </div>
                     </div>
                 </div>
@@ -326,10 +324,10 @@ if (isset($_POST['submit'])) {
                                         <div class="parcial">
                                             <div class="info">
                                                 <div class="nome">C</div>
-                                                <div class="percentagem-num">55%</div>
+                                                <div class="percentagem-num">90%</div>
                                             </div>
                                             <div class="progressBar">
-                                                <div class="percentagem" style="width: 55%;"></div>
+                                                <div class="percentagem" style="width: 90%;"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -338,10 +336,10 @@ if (isset($_POST['submit'])) {
                                         <div class="parcial">
                                             <div class="info">
                                                 <div class="nome">Mysql</div>
-                                                <div class="percentagem-num">50%</div>
+                                                <div class="percentagem-num">80%</div>
                                             </div>
                                             <div class="progressBar">
-                                                <div class="percentagem" style="width: 50%;"></div>
+                                                <div class="percentagem" style="width: 80%;"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -351,10 +349,10 @@ if (isset($_POST['submit'])) {
                                         <div class="parcial">
                                             <div class="info">
                                                 <div class="nome">PHP</div>
-                                                <div class="percentagem-num">50%</div>
+                                                <div class="percentagem-num">75%</div>
                                             </div>
                                             <div class="progressBar">
-                                                <div class="percentagem" style="width: 50%;"></div>
+                                                <div class="percentagem" style="width: 75%;"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -362,10 +360,10 @@ if (isset($_POST['submit'])) {
                                         <div class="parcial">
                                             <div class="info">
                                                 <div class="nome">Python</div>
-                                                <div class="percentagem-num">45%</div>
+                                                <div class="percentagem-num">70%</div>
                                             </div>
                                             <div class="progressBar">
-                                                <div class="percentagem" style="width: 45%;"></div>
+                                                <div class="percentagem" style="width: 70%;"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -373,10 +371,10 @@ if (isset($_POST['submit'])) {
                                         <div class="parcial">
                                             <div class="info">
                                                 <div class="nome">Git</div>
-                                                <div class="percentagem-num">45%</div>
+                                                <div class="percentagem-num">70%</div>
                                             </div>
                                             <div class="progressBar">
-                                                <div class="percentagem" style="width: 45%;"></div>
+                                                <div class="percentagem" style="width: 70%;"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -385,10 +383,10 @@ if (isset($_POST['submit'])) {
                                         <div class="parcial">
                                             <div class="info">
                                                 <div class="nome">HTML</div>
-                                                <div class="percentagem-num">50%</div>
+                                                <div class="percentagem-num">70%</div>
                                             </div>
                                             <div class="progressBar">
-                                                <div class="percentagem" style="width: 50%;"></div>
+                                                <div class="percentagem" style="width: 70%;"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -397,10 +395,10 @@ if (isset($_POST['submit'])) {
                                         <div class="parcial">
                                             <div class="info">
                                                 <div class="nome">CSS</div>
-                                                <div class="percentagem-num">45%</div>
+                                                <div class="percentagem-num">70%</div>
                                             </div>
                                             <div class="progressBar">
-                                                <div class="percentagem" style="width: 45%;"></div>
+                                                <div class="percentagem" style="width: 70%;"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -408,10 +406,10 @@ if (isset($_POST['submit'])) {
                                         <div class="parcial">
                                             <div class="info">
                                                 <div class="nome">JavaScript</div>
-                                                <div class="percentagem-num">40%</div>
+                                                <div class="percentagem-num">65%</div>
                                             </div>
                                             <div class="progressBar">
-                                                <div class="percentagem" style="width: 40%;"></div>
+                                                <div class="percentagem" style="width: 65%;"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -430,10 +428,10 @@ if (isset($_POST['submit'])) {
                                     <div class="parcial">
                                         <div class="info">
                                             <div class="nome">Java</div>
-                                            <div class="percentagem-num">50%</div>
+                                            <div class="percentagem-num">70%</div>
                                         </div>
                                         <div class="progressBar">
-                                            <div class="percentagem" style="width: 50%;"></div>
+                                            <div class="percentagem" style="width: 70%;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -442,10 +440,10 @@ if (isset($_POST['submit'])) {
                                     <div class="parcial">
                                         <div class="info">
                                             <div class="nome">Assembly</div>
-                                            <div class="percentagem-num">45%</div>
+                                            <div class="percentagem-num">65%</div>
                                         </div>
                                         <div class="progressBar">
-                                            <div class="percentagem" style="width: 45%;"></div>
+                                            <div class="percentagem" style="width: 65%;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -454,10 +452,10 @@ if (isset($_POST['submit'])) {
                                     <div class="parcial">
                                         <div class="info">
                                             <div class="nome">SVN</div>
-                                            <div class="percentagem-num">45%</div>
+                                            <div class="percentagem-num">60%</div>
                                         </div>
                                         <div class="progressBar">
-                                            <div class="percentagem" style="width: 45%;"></div>
+                                            <div class="percentagem" style="width: 60%;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -466,10 +464,10 @@ if (isset($_POST['submit'])) {
                                     <div class="parcial">
                                         <div class="info">
                                             <div class="nome">Laravel framework</div>
-                                            <div class="percentagem-num">40%</div>
+                                            <div class="percentagem-num">50%</div>
                                         </div>
                                         <div class="progressBar">
-                                            <div class="percentagem" style="width: 40%;"></div>
+                                            <div class="percentagem" style="width: 50%;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -477,10 +475,10 @@ if (isset($_POST['submit'])) {
                                     <div class="parcial">
                                         <div class="info">
                                             <div class="nome">Bootstrap</div>
-                                            <div class="percentagem-num">40%</div>
+                                            <div class="percentagem-num">50%</div>
                                         </div>
                                         <div class="progressBar">
-                                            <div class="percentagem" style="width: 40%;"></div>
+                                            <div class="percentagem" style="width: 50%;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -506,7 +504,7 @@ if (isset($_POST['submit'])) {
                                 <div class="mh-education-deatils">
                                     <!-- Education Institutes-->
                                     <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                        <h4><a href="https://www.ku.ac.bd">KHULNA UNIVERSITY, BANGLADESH</a></h4>
+                                        <h4><a href="ku.ac.bd">KHULNA UNIVERSITY, BANGLADESH</a></h4>
                                         <h5>BACHELOR OF ENGINEERING</h5>
                                         <h5>Computer Science & Engineering</h5>
                                         <div class="mh-eduyear">  January, 2016-Present</div>
@@ -514,8 +512,8 @@ if (isset($_POST['submit'])) {
                                     </div>
                                     <!-- Education Institutes-->
                                     <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                                      <h4><a href="https://ngdc-raj.ac.bd">NEW GOVT. DEGREE COLLEGE, RAJSHAHI</a></h4>
-                                      <h5>INTERMEDIATE</h5>
+                                      <h4><a href="https://ngdc-raj.ac.bd">New Govt. Degree College, Rajshahi</a></h4>
+                                      <h5>HIGHER-SECONDARY SCHOOL CERTIFICATE</h5>
                                       <h5>Rajshahi Board</h5>
                                       <div class="mh-eduyear">July, 2013- July, 2015</div>
                                       <p>GPA 5 out of 5</p>
@@ -523,7 +521,7 @@ if (isset($_POST['submit'])) {
                                     <!-- Education Institutes-->
                                     <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
                                       <h4><a href="https://www.facebook.com/MABS2002">MOMENA ALI BIGGAN SCHOOL, ULLAPARA, SIRAJGANJ</a></h4>
-                                      <h5>SECONDARY SCHOOL</h5>
+                                      <h5>JUNIOR SCHOOL CERTIFICATE & SECONDARY SCHOOL CERTIFICATE</h5>
                                       <h5>Rajshahi Board</h5>
                                       <div class="mh-eduyear">January, 2008- July, 2013</div>
                                       <p>JSC- GPA 5 out of 5 </br> SSC- GPA 5 out of 5</p>
@@ -534,6 +532,8 @@ if (isset($_POST['submit'])) {
                         <div class="col-sm-12 col-md-6">
                             <div class="mh-work">
                                  <h3>Work Experience</h3>
+                                <div class="mh-experience-deatils">
+                                  <h3>Work Experience</h3>
                                 <!--<div class="mh-experience-deatils">
                                      Education Institutes
                                     <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
@@ -579,16 +579,14 @@ if (isset($_POST['submit'])) {
            PORTFOLIO
         ===================
         -->
-        <!--
         <section class="mh-portfolio" id="mh-portfolio">
             <div class="container">
                 <div class="row section-separator">
                     <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
                         <h3>Projects</h3>
                     </div>
-                    
+                    <!--
                     <div class="part col-sm-12">
-                        <!--
                         <div class="portfolio-nav col-sm-12" id="filter-button">
                             <ul>
                                 <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>All Categories</span></li>
@@ -598,13 +596,11 @@ if (isset($_POST['submit'])) {
                                 <li data-filter=".ui" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><span>Photography</span></li>
                             </ul>
                         </div>
-                        -->
-                        <!--
                         <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <div class="portfolioContainer row">
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
                                     <figure>
-                                        <img src="assets/images/admin/lotif1.png" alt="img04">
+                                        <img src="assets/images/portfolio/g1.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
@@ -615,18 +611,18 @@ if (isset($_POST['submit'])) {
                                 </div>
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui mockup">
                                     <figure>
-                                        <img src="assets/images/admin/lotif1.png" alt="img04">
+                                        <img src="assets/images/portfolio/g2.png" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/admin/lotif1.png" data-fancybox data-src="#mh"></a>
+                                            <a href="assets/images/portfolio/g2.png" data-fancybox data-src="#mh"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
                                     <figure>
-                                        <img src="assets/images/admin/lotif1.png" alt="img04">
+                                        <img src="assets/images/portfolio/g3.png" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
@@ -637,18 +633,18 @@ if (isset($_POST['submit'])) {
                                 </div>
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
                                     <figure>
-                                        <img src="assets/images/admin/lotif1.png" alt="img04">
+                                        <img src="assets/images/portfolio/g5.png" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/admin/lotif1.png" data-fancybox data-src="#mh"></a>
+                                            <a href="assets/images/portfolio/g5.png" data-fancybox data-src="#mh"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
                                     <figure>
-                                        <img src="assets/images/admin/lotif1.png" alt="img04">
+                                        <img src="assets/images/portfolio/g4.png" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
@@ -659,29 +655,29 @@ if (isset($_POST['submit'])) {
                                 </div>
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
                                     <figure>
-                                        <img src="assets/images/admin/lotif1.png" alt="img04">
+                                        <img src="assets/images/portfolio/g6.png" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/admin/lotif1.png" data-fancybox data-src="#mh"></a>
+                                            <a href="assets/images/portfolio/g6.png" data-fancybox data-src="#mh"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
                                     <figure>
-                                        <img src="assets/images/admin/lotif1.png" alt="img04">
+                                        <img src="assets/images/portfolio/g8.png" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/admin/lotif1.png" data-fancybox data-src="#mh"></a>
+                                            <a href="assets/images/portfolio/g8.png" data-fancybox data-src="#mh"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui">
                                     <figure>
-                                        <img src="assets/images/admin/lotif1.png" alt="img04">
+                                        <img src="assets/images/portfolio/g9.png" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
@@ -692,21 +688,20 @@ if (isset($_POST['submit'])) {
                                 </div>
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
                                     <figure>
-                                        <img src="assets/images/admin/lotif1.png" alt="img04">
+                                        <img src="assets/images/portfolio/g7.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/admin/lotif1.png" data-fancybox="gallery"></a>
+                                            <a href="assets/images/portfolio/g7.jpg" data-fancybox="gallery"></a>
                                         </figcaption>
                                     </figure>
-                                </div> <!--
-                            </div>  <!--End: .grid .project-gallery --><!--
-                        </div> <!-- End: .grid .project-gallery --><!--
-                    </div> <!-- End: .part --><!--
-                </div> <!-- End: .row --><!--
+                                </div>
+                            </div>  End: .grid .project-gallery
+                        </div>  End: .grid .project-gallery
+                    </div>  End: .part
+                </div>  End: .row
             </div>
-            
             <div class="mh-portfolio-modal" id="mh">
                 <div class="container">
                     <div class="row mh-portfolio-modal-inner">
@@ -736,19 +731,19 @@ if (isset($_POST['submit'])) {
                         </div>
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
-                                <img src="assets/images/admin/lotif1.png" alt="" class="img-fluid">
+                                <img src="assets/images/pr-0.jif" alt="" class="img-fluid">
                                 <p>All variations are organized separately so you can use / customize the template very easily.</p>
-                                <img src="assets/images/admin/lotif1.png" alt="" class="img-fluid">
+                                <img src="assets/images/pr-1.jif" alt="" class="img-fluid">
                                 <p>All variations are organized separately so you can use / customize the template very easily.</p>
                             </div>
                         </div>
                     </div>
-                  --><!--
+                  -->
                 </div>
             </div>
         </section>
 
--->
+
         <!--
         ===================
            PRICING
@@ -972,7 +967,7 @@ if (isset($_POST['submit'])) {
                         </div>
                         <div class="col-sm-12 mh-footer-address">
                             <div class="row">
-                                <div class="col-sm-12 col-md-4">
+                                <div class="col-sm-12 col-md-3">
                                     <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                                         <div class="each-icon">
                                             <i class="fa fa-location-arrow"></i>
@@ -986,7 +981,7 @@ if (isset($_POST['submit'])) {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4">
+                                <div class="col-sm-12 col-md-3">
                                     <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
                                         <div class="each-icon">
                                             <i class="fa fa-envelope-o"></i>
@@ -999,7 +994,7 @@ if (isset($_POST['submit'])) {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4">
+                                <div class="col-sm-12 col-md-3">
                                     <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
                                         <div class="each-icon">
                                             <i class="fa fa-phone"></i>
@@ -1012,7 +1007,7 @@ if (isset($_POST['submit'])) {
                                     </div>
                                 </div>
 
-<!--
+
                                 <div class="col-sm-12 col-md-3">
                                     <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
                                         <div class="each-icon">
@@ -1024,13 +1019,12 @@ if (isset($_POST['submit'])) {
                                         </div>
                                     </div>
                                 </div>
-                                -->
 
                             </div>
                         </div>
-                        
+                        <?php echo "<h1>".$errMsg."</h1>" ?>
                         <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                            <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator" action="email.php" method="POST">
+                            <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator" action="" method="POST">
                                 <div id="msgSubmit" class="h3 text-center hidden"></div>
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
@@ -1046,9 +1040,8 @@ if (isset($_POST['submit'])) {
                                         <textarea class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
                                     </div>
                                     <!-- Subject Button -->
-                                    
                                     <div class="btn-form col-sm-12">
-                                        <button type="submit" class="btn btn-fill btn-block" id="submit" value="submit">Send Message</button>
+                                        <button type="submit" class="btn btn-fill btn-block" name="submit" id="submit">Send Message</button>
                                     </div>
                                 </div>
                             </form>
@@ -1062,7 +1055,7 @@ if (isset($_POST['submit'])) {
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="text-left text-xs-center">
-                                        <p>All right reserved Md. Abdul Lotif &copy <?php echo date(Y); ?></p>
+                                        <p>All right reserved Md. Abdul Lotif @ <?php echo date(Y); ?></p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
